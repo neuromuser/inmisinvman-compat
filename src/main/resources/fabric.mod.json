@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "inmisinvman-compat",
+	"version": "${version}",
+	"name": "Inmis + Inventory Management Compatibility",
+	"description": "Compatibility layer between Inmis backpacks and Inventory Management mod",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://github.com/neuromuser/inmisinvman-compat"
+	},
+	"license": "MIT",
+	"icon": "assets/inmisinvman-compat/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.neuromuser.inmisinvmancompat.client.InmisInvManCompatClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"inmis": "*",
+		"inventorymanagement": "*"
+	}
+}
